@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
+    "dev": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
     "styles": "stylus -u autoprefixer-stylus ./src/main.styl -o ./src/index.css",
     "styles:watch": "stylus -u autoprefixer-stylus -w ./src/main.styl -o ./src/index.css",
     "eject": "react-scripts eject"
